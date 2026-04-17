@@ -8,7 +8,7 @@
     "/api/rest/houders": {
       "get": {
         "summary": "ListHoudersQuery",
-        "operationId": "getHouders",
+        "operationId": "houders",
         "description": "***\nThe GraphQl query for this endpoint is:\n``` graphql\nquery ListHoudersQuery($limit: Int!, $offset: Int!) {\n  houder(limit: $limit, offset: $offset, order_by: {naam: asc}) {\n    id\n    kvk\n    naam\n    contact_persoon\n    contact_emailadres\n    correspondentie_adres\n    correspondentie_postcode\n    correspondentie_woonplaats\n  }\n}\n```",
         "parameters": [
           {
